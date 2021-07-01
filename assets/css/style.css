@@ -1,30 +1,23 @@
-body{
+body {
   font-family: 'Source Code Pro';
   background-color: #000;
-  background-image: url('../img/');
 }
 
-.navbar{
-  padding: 0;relative;
-  background-color: #289BA9;
-}
-
- .carousel {
-	margin: 0px auto 60px;
-	padding: 0 00px;
+.carousel {
+  margin: 0px auto 60px;
+  padding: 0px;
 }
 
 .carousel-inner img {
-	height: 800px;
-	overflow: hidden;
+  height: 800px;
+  overflow: hidden;
 }
 
-#whoweare{
-  text-align: center;
-  color: #fff;
-}
+/* html {
+  scroll-behavior: smooth;
+} */
 
-hr{
+hr {
   height: 1px;
 }
 
@@ -32,38 +25,46 @@ hr{
   background-color: #17A3B8;
 }
 
-#whoweare{
-  padding-top: 100px;
+#whoweare {
+  text-align: center;
+  color: #fff;
+  padding-top: 80px;
 }
-#whoweare i{
+
+#whoweare i {
   background-color: #289BA9;
   width: 100%;
-  height:40px;
+  height: 40px;
   padding: 0.15em;
 }
-#whoweare .card{
+
+#whoweare .card {
   border: none;
 }
-#whoweare .card-text{
+
+#whoweare .card-text {
   font-weight: 200;
   font-size: medium;
   text-align: justify;
 }
-#whoweare .card-body{
+
+#whoweare .card-body {
   background-color: black;
   flex: 1 1 auto;
 }
 
-#remarks{
-  padding-top: 100px;
+#remarks {
+  padding-top: 80px;
   text-align: center;
   color: #fff;
 }
-#remarks .card-title{
+
+#remarks .card-title {
   text-align: left;
   font-weight: 600;
 }
-#remarks .card img{
+
+#remarks .card img {
   height: 250px;
 }
 
@@ -71,36 +72,55 @@ hr{
   background-color: #289BA9;
   text-align: left;
 }
-.card-text{
+
+.card-text {
   font-weight: 200;
   font-size: small;
 }
 
-.contact{
+.contact {
   height: 36px;
   text-align: center;
   color: #fff;
 }
 
-#contact{
+#contact {
   padding-top: 50px;
   margin-bottom: 20px;
 }
-#contact h3{
+
+#contact h3 {
   text-align: center;
   padding: 6px;
   font-size: 18px;
 }
 
-footer{
+footer {
   height: 100px;
   align-items: center;
   color: #fff;
 }
-footer h4{
+
+footer h4 {
   text-align: center;
 }
-footer i{
+
+footer i {
   color: #fff;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  #whoware{
+    display: none;  
+  }
+  .carousel-inner img {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  #whoweare {
+    display: none;
+  }
+
 }
